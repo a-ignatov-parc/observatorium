@@ -1,0 +1,43 @@
+{
+	"name": "observatorium",
+	"description": "Sandbox manager for requre.js to run dedicated apps",
+	"version": "0.1.4-6",
+	"author": {
+		"name": "Anton Ignatov",
+		"web": "https://github.com/a-ignatov-parc"
+	},
+	"url": "https://github.com/a-ignatov-parc/observatorium",
+	"bugs": "https://github.com/a-ignatov-parc/observatorium/issues",
+	"main": "./dist/observatorium.js",
+	"keywords": [
+		"client",
+		"browser",
+		"events",
+		"pub/sub"
+	],
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "https://github.com/a-ignatov-parc/observatorium/blob/master/LICENSE"
+		}
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/a-ignatov-parc/observatorium.git"
+	},
+	"scripts": {
+		"test": "grunt travis --verbose",
+		"build": "grunt"
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"grunt": "0.4.x",
+		"grunt-cli": "0.1.x",
+		"grunt-contrib-jshint": "0.6.x",
+		"grunt-contrib-uglify": "0.2.x",
+		"grunt-contrib-qunit": "0.2.x",
+		"grunt-bumpup": "0.2.x"
+	},
+	"srcPath": "dist/",
+	"testPath": "tests/"
+}
