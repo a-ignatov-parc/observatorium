@@ -1,7 +1,7 @@
 {
 	"name": "observatorium",
 	"description": "Fast pub/sub event library",
-	"version": "0.1.4-6",
+	"version": "0.1.4-9",
 	"author": {
 		"name": "Anton Ignatov",
 		"web": "https://github.com/a-ignatov-parc"

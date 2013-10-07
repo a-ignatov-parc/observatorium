@@ -218,7 +218,7 @@
 
 						if (mutedHandlerMap[handlerId]) {
 							handlers[handlerId] = mutedHandlerMap[handlerId];
-							delete mutedHandlerMap[handlerId];
+							mutedHandlerMap[handlerId] = null;
 						}
 					}
 				}
