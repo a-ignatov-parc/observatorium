@@ -1,6 +1,6 @@
 {
 	"name": "observatorium",
-	"description": "Sandbox manager for requre.js to run dedicated apps",
+	"description": "Fast pub/sub event library",
 	"version": "0.1.4-6",
 	"author": {
 		"name": "Anton Ignatov",
